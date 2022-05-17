@@ -1,0 +1,198 @@
+* {
+    box-sizing: border-box;
+}
+/* ////////////////////////////////////Body\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+body {
+    background-image: url("img/road.jpg");
+    background-position: center;
+    background-color: #000000;
+    background-blend-mode: color-burn;
+    background-size: 110%;
+    background-repeat: no-repeat;
+    font-variant: tabular-nums;
+    text-align: center;
+    margin: 40px auto;
+}
+body {
+    clear: both;
+}
+main {
+    margin: auto;
+    width: 465px;
+    height: 232px;
+    background: linear-gradient(247deg, rgba(255,54,0,1) 0%, rgba(0,0,0,1) 78%);
+    border-radius: 15px;
+    padding: 0px 51px 0px 51px;
+    opacity: 0.8;
+}
+img {
+    margin: inherit;
+    width: 350px;
+    border-radius: 15px;
+    mix-blend-mode: luminosity;
+    position: relative;
+}
+/* ////////////////////////////////////Calss\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+.intro {
+        background: radial-gradient(circle, rgba(255,54,0,1) 0%, rgba(0,0,0,1) 78%);
+        width: 200px;
+        height: 200px;
+        border-radius: 100px;
+        margin: auto;
+}
+.intro p {   
+    font-size: 19px;
+    color: black;
+    position: relative;
+    bottom: 60px;
+    left: 50px;
+    font-family: 'Zen Loop', cursive;
+}
+strong {
+    font-weight: 300;
+    font-size: 45px;
+    position: relative;
+    top: 30px;
+    left: -65px;
+    color: gold;
+    font-family: 'Smooch', cursive;
+}
+.intro .or {
+    position: relative;
+    left: 0px;
+    bottom: 55px;
+}
+.intro .bro {
+    color: gold;
+    position: relative;
+    left: 0px;
+    bottom: 82px;
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-family: 'Smooch', cursive;
+}
+.project {
+    background: radial-gradient(circle, rgba(255,54,0,1) 0%, rgba(0,0,0,1) 78%);
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    position: relative;
+    top: 25px;
+    left: 75px;
+    white-space: pre-line;
+}
+.about {
+    background: radial-gradient(circle, rgba(255,54,0,1) 0%, rgba(0,0,0,1) 78%);
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    position: relative;
+    margin: auto;
+    white-space: pre-line;
+    top: 15px;
+    font-family: 'Zen Loop', cursive;
+}
+.about p {
+    width: 150px;
+    font-size: 23px;
+    color: gold;
+    position: relative;
+    bottom: 62px;
+    left: 24px;
+}
+.where p {
+    font-size: 14px;
+    position: relative;
+    left: 2px;
+    bottom: 15px;
+    color: floralwhite;
+    font-weight: 700;
+}
+.contactinfo {
+    position: relative;
+    top: 70px;
+    right: 12px;
+    color: #ffd7007d;
+    font-size: 14px;
+    font-family: 'Zen Loop', cursive;
+}
+.icons {
+    padding-bottom: 5px;
+    padding-left: 60px;
+    padding-right: 60px;
+    position: relative;
+    bottom: 385px;
+    left: 203px;
+}
+.footer {
+    color: #ffd7007d;
+    position: relative;
+    top: 52px;
+    font-size: 15px;
+    font-family: 'Zen Loop', cursive;
+}
+/* ////////////////////////////////////H\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+h1 {
+    color: #f07000;
+    position: relative;
+    font-size: 55px;
+    top: 16px;
+    left: 5px;
+    font-family: 'Bitter', serif;
+}
+h3 {
+    margin: auto;
+    color: #f07000;
+    position: relative;
+    font-family: auto;
+    font-size: 26px;
+    font-family: 'Bitter', serif;
+}
+h4 {
+    position: relative;
+    bottom: 39px;
+    font-size: 31px;
+    font-family: auto;
+    color: #f07000;
+    font-family: 'Bitter', serif;
+}
+/* ////////////////////////////////////UL\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+ul {
+    list-style: none;
+    font-size: 17px;
+    position: relative;
+    bottom: 155px;
+    right: 20px;
+    font-family: 'Zen Loop', cursive;
+}
+i {
+	font-size: 18px;
+	padding: 5px;
+}
+i:hover {
+	color: rgba(255,54,0,1);
+    font-size: 15px;
+}
+a, a:visited {
+    color: gold;
+    text-decoration: none;
+}
+a:hover, a:active {
+	color: rgb(255, 255, 255);
+    font-variant-caps: petite-caps;
+}
+@media only screen and (max-width: 768px){
+    body {
+         background:  url("road.jpg");
+         background-color: #000000;
+         background-blend-mode: color-burn;
+    }
+    i {
+        font-size: 15px;
+        padding: 5px;
+    }
+    i:hover {
+        color: #005088;
+        font-size: 40px;
+    }
+}
